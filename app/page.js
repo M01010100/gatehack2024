@@ -57,7 +57,8 @@ export default function Home() {
   // Make sure to move OpenAI API calls to the backend
   async function imgToLetter(image) {
     const openai = new OpenAI({
-      apiKey:
+      // Enter your OpenAI API key here
+      // apiKey:
 
       dangerouslyAllowBrowser: true,
     });
